@@ -1,0 +1,3 @@
+GLightbox({
+  loop: true,
+});
