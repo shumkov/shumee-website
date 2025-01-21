@@ -1,2 +1,2 @@
 # shumee-website
-http://sshum.ee website
+http://shum.ee website
