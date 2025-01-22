@@ -15,7 +15,7 @@
 
   --color-main: #fff;
   --color-hover: var(--color-main);
-  --color-inverse: #050709;
+  --color-inverse: #000;
 }
 
 * {
@@ -114,11 +114,13 @@ h6,
 
 h1 {
   margin-bottom: 0.24em;
+  text-transform: uppercase;
   font-size: 1.5625rem;
   font-weight: bold;
 }
 
 h2 {
+  margin-bottom: 1.1em;
   font-size: 1.375rem;
   font-weight: normal;
 }
@@ -173,16 +175,20 @@ strong {
   background: center no-repeat;
   background-size: contain;
 
+  &--sound {
+    background-image: url("../img/siteimage/icon-sound.svg");
+  }
+
   &--download {
-    background-image: url("../img/siteimage/icon-download.png");
+    background-image: url("../img/siteimage/icon-download.svg");
   }
 
   &--mail {
-    background-image: url("../img/siteimage/icon-mail.png");
+    background-image: url("../img/siteimage/icon-mail.svg");
   }
 
   &--social-telegram {
-    background-image: url("../img/siteimage/icon-social-telegram.png");
+    background-image: url("../img/siteimage/icon-social-telegram.svg");
   }
 }
 
@@ -339,15 +345,15 @@ strong {
 .footer {
   display: grid;
   place-items: center;
-  min-height: 22vw;
-  padding: 5vw;
-  font-size: clamp(1.125rem, 5vw, 2rem);
+  padding: 5vw 0 clamp(100px, 10vw, 160px);
+  line-height: 1;
+  font-size: clamp(1.125rem, 5vw, 1.625rem);
 }
 
 .footer-info {
   display: flex;
   flex-direction: column;
-  gap: 2vw;
+  gap: max(20px, 1vw);
 
   &,
   li {
