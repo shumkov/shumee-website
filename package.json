@@ -1,7 +1,8 @@
 {
-  "name": "project",
+  "name": "shumee-website",
   "version": "1.0.0",
-  "description": "",
+  "private": "true",
+  "description": "Shúmee electronic artist website",
   "devDependencies": {
     "sass": "1.83.0"
   },
