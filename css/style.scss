@@ -345,15 +345,18 @@ strong {
 .footer {
   display: grid;
   place-items: center;
-  padding: 5vw 0 clamp(100px, 10vw, 160px);
+  padding: clamp(16px, 5vw, 50px) 0 clamp(100px, 10vw, 160px);
   line-height: 1;
-  font-size: clamp(1.125rem, 5vw, 1.625rem);
+  font-size: clamp(1.125rem, 3vw, 1.625rem);
 }
 
 .footer-info {
-  display: flex;
-  flex-direction: column;
-  gap: max(20px, 1vw);
+  width: min(750px, 82vw);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, min-content));
+  place-content: center;
+  gap: max(20px, 1vw) 4vw;
+  white-space: nowrap;
 
   &,
   li {
