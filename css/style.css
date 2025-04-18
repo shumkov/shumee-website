@@ -333,16 +333,14 @@ strong {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  filter: grayscale(100%);
   opacity: 0.7;
   background: url("../img/siteimage/icon-video-play.svg") 0 0 no-repeat;
-  transition: filter 0.3s, opacity 0.3s;
+  transition: opacity 0.3s;
 }
 .video-preview img {
   filter: grayscale(100%);
 }
 .video-preview:hover:after {
-  filter: grayscale(0);
   opacity: 1;
 }
 
