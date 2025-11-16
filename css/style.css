@@ -176,6 +176,9 @@ strong {
 .icon--social-telegram {
   background-image: url("../img/siteimage/icon-social-telegram.svg");
 }
+.icon--social-youtube {
+  background-image: url("../img/siteimage/icon-social-youtube.svg");
+}
 
 .svg-icon {
   display: inline-block;
