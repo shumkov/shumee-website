@@ -4,10 +4,12 @@
   "private": "true",
   "description": "Shúmee electronic artist website",
   "devDependencies": {
+    "http-server": "^14.1.1",
     "sass": "1.83.0"
   },
   "license": "ISC",
   "scripts": {
-    "sass:watch": "sass --no-source-map --watch css:css"
+    "sass:watch": "sass --no-source-map --watch css:css",
+    "dev": "http-server -p 4173 -c-1 ."
   }
 }
